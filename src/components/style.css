@@ -1,0 +1,133 @@
+.green-theme {
+  background-color: #d6cbd3;
+  padding: 40px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #df5861;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-label {
+  color: #775327;
+  font-weight: bold;
+}
+
+.form-control {
+  background-color: #89bd8c;
+  border: none;
+  color: #ffffff;
+  width: 100%;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.invalid-feedback {
+  color: red;
+}
+
+button[type="submit"] {
+  background-color: #ff7f50;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff6347;
+}
+
+.button-green {
+  background-color: #ff7f50;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button-green:hover {
+  background-color: #ff6347;
+}
+
+.modal-title {
+  color: #ada397;
+  font-weight: bold;
+}
+
+.form-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.form-box {
+  background-color: #bdcebe;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ada397;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.view-button {
+  margin: 1rem;
+  background-color: #ff7f50;
+  border: none;
+  color: #ffffff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.view-button:hover {
+  background-color: #ff6347;
+}
+
+.modal-body {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  padding: 40px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-info-content {
+  padding: 20px;
+}
+
+.form-info-content h2 {
+  color: #ada397;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.form-info-content p {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.viewForm {
+  align-self: flex-end;
+  margin-bottom: -50px;
+}
